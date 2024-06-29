@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: office
+  datasource:
+    url: jdbc:mysql://localhost:3306/episodedb
+    username: root
+    password: 11101996
+  jpa:
+    show-sql: true
+  config:
+    import:
+      - "application_qa.yml"
+      - "application_prod.yml"
+  profiles:
+    active: "OfficeQA"
+
+
+build:
+  version: 1.0
+
+office:
+  message: "Welcome to The Office(US) related APIs"
+  contactDetails:
+    name: "Micheal Scott"
+    email: "micheal@office.com"

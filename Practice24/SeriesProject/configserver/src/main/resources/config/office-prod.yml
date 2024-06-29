@@ -1,0 +1,8 @@
+build:
+  version: 3.0
+
+office:
+  message: "Welcome to The Office(US) related PROD APIs"
+  contactDetails:
+    name: "Micheal Scott"
+    email: "micheal@office.com"

@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: got
+  profiles:
+    active: "qawala"
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/episodes
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+server:
+  port: 8090

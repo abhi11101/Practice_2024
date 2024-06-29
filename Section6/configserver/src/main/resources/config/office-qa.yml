@@ -1,0 +1,8 @@
+build:
+  version: 2.0
+
+office:
+  message: "Welcome to The Office(US) related QA APIs"
+  contactDetails:
+    name: "Micheal Scott"
+    email: "micheal@office.com"

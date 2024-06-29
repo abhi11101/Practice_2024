@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: got
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/episodes
+server:
+  port: 8090

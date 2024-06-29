@@ -1,0 +1,8 @@
+build:
+  version: 1.0
+
+office:
+  message: "Welcome to The Office(US) related APIs"
+  contactDetails:
+    name: "Micheal Scott"
+    email: "micheal@office.com"

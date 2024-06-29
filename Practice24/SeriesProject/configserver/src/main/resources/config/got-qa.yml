@@ -1,0 +1,8 @@
+build:
+  version: 2.0
+
+office:
+  message: "Welcome to The Game Of Thrones related QA APIs"
+  contactDetails:
+    name: "Jon Snow"
+    email: "jon@got.com"

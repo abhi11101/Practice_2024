@@ -1,0 +1,8 @@
+build:
+  version: 2.0
+
+friends:
+  message: "Welcome to The Friends related QA APIs"
+  contactDetails:
+    name: "Joey Tribbiani"
+    email: "joey@friends.com"
