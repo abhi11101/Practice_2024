@@ -1,0 +1,8 @@
+build:
+  version: 3.0
+
+got:
+  message: "Welcome to The Game Of Thrones related PROD APIs"
+  contactDetails:
+    name: "Jon Snow"
+    email: "jon@got.com"

@@ -1,0 +1,33 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: office
+  profiles:
+    active: default
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
+  info:
+    env:
+      enabled: true
+
+endpoints:
+  shutdown:
+    enabled: true
+
+info:
+  app:
+    name: "The Office"
+    description: "The show documents the exploits of a paper supply company in Scranton, Pennsylvania. With an office including the likes of various peers, this series takes a look at the lives of its co-workers."
+    version: "1.0.0"
