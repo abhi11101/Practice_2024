@@ -3,7 +3,6 @@ package com.abhi.series.Controller;
 import com.abhi.series.Constants.SeriesConstants;
 import com.abhi.series.DTO.ResponseDTO;
 import com.abhi.series.DTO.SeriesDTO;
-import com.abhi.series.DTO.SeriesDetailsDTO;
 import com.abhi.series.Service.SeriesDetailsService;
 import com.abhi.series.Service.SeriesService;
 import jakarta.validation.Valid;
