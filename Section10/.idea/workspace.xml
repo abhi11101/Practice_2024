@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7464760-74fd-4803-b84c-77161b974627" name="Changes" comment="Section 9">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Section10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Constants/SeriesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Controller/SeriesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/FriendsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/GameOfThronesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/OfficeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/SeriesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/DTO/SeriesDetailsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Entity/Series.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/ExceptionHandling/EpisodeAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/ExceptionHandling/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/ExceptionHandling/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Mapper/SeriesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Repository/SeriesRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/SeriesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/FeignClients/FriendsFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/FeignClients/FriendsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/FeignClients/GotFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/FeignClients/GotFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/FeignClients/OfficeFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/FeignClients/OfficeFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/Implementation/SeriesDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/Implementation/SeriesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/SeriesDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/java/com/abhi/series/Service/SeriesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Series/src/test/java/com/abhi/series/SeriesApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/java/com/abhi/eurekaserver/EurekaserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurekaserver/src/test/java/com/abhi/eurekaserver/EurekaserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Audit/AuditAwareImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Constants/FriendsConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Controller/FriendsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/DTOs/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/DTOs/FriendsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/DTOs/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Entity/Friends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/ExceptionHandling/EpisodeAlreadyExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/ExceptionHandling/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/ExceptionHandling/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/FriendsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Mapper/FriendMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Respository/FriendsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Service/FriendsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/java/com/abhi/friends/Service/Implementation/FriendsServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friends/src/test/java/com/abhi/friends/FriendsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/abhi/gatewayserver/ConfigFiles/RouterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/abhi/gatewayserver/Controllers/FallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/abhi/gatewayserver/GatewayserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayserver/src/test/java/com/abhi/gatewayserver/GatewayserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Constants/GOTConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Controller/GotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/DTO/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/DTO/GameOfThronesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/DTO/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Entity/GameOfThrones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/ExceptionHandling/EpisodeAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/ExceptionHandling/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/ExceptionHandling/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/GotApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Mapper/GOTMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Repository/GotRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Service/GotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/java/com/abhi/got/Service/Implementation/GotServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/got/src/test/java/com/abhi/got/GotApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Audit/AuditAwareRef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Constants/OfficeConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Controllers/OfficeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/DTO/ErrorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/DTO/OfficeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/DTO/ResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Entity/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/ExceptionHandling/EpisodeAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/ExceptionHandling/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/ExceptionHandling/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Mapper/OfficeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/OfficeApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Repository/OfficeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Service/Implementation/OfficeServiceImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/java/com/abhi/office/Service/OfficeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/office/src/test/java/com/abhi/office/OfficeApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abhi11101&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/abhi11101/Practice_2024.git&quot;,
+    &quot;accountId&quot;: &quot;07231433-ffd3-42b6-b11b-72e3e2d097de&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2iNHrJ8IxTFNiIGhvfeq5v3bQdS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP Request.FriendsApplication | #1.executor": "Run",
+    "HTTP Request.GotApplication | #1.executor": "Run",
+    "HTTP Request.OfficeApplication | #1.executor": "Run",
+    "Maven.Series [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ConfigserverApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.EurekaserverApplication.executor": "Run",
+    "Spring Boot.FriendsApplication.executor": "Run",
+    "Spring Boot.GatewayServerApplication.executor": "Run",
+    "Spring Boot.GatewayserverApplication.executor": "Run",
+    "Spring Boot.GotApplication.executor": "Run",
+    "Spring Boot.OfficeApplication.executor": "Run",
+    "Spring Boot.SeriesApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/Codes/Practice_2023/Eazy Bytes/Practice_2024/2024/Section10/GatewayServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Codes\Practice_2023\Eazy Bytes\Practice_2024\2024\Section10\Series\src\main\java\com\abhi\series" />
+      <recent name="E:\Codes\Practice_2023\Eazy Bytes\Practice_2024\2024\Section10\Series\src\main\java\com\abhi\series\Service\FeignClients" />
+      <recent name="E:\Codes\Practice_2023\Eazy Bytes\Practice_2024\2024\Section10\Series\src\main\java\com\abhi\series\DTO" />
+      <recent name="E:\Codes\Practice_2023\Eazy Bytes\Practice_2024\2024\Section10\Office\src\main\java\com\abhi\office" />
+      <recent name="E:\Codes\Practice_2023\Eazy Bytes\Practice_2024\2024\Section9\Series\src\main\java\com\abhi\series" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.abhi.series.Service.Implementation" />
+      <recent name="com.abhi.series.DTO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayServerApplication">
+    <configuration name="ConfigserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="configserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.configserver.ConfigserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="EurekaServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FriendsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Friends" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.friends.FriendsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="GatewayServer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.gatewayserver.GatewayServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gatewayserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.gatewayserver.GatewayserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="got" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.got.GotApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OfficeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Office" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.office.OfficeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeriesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Series" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.abhi.series.SeriesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18968.26" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18968.26" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7464760-74fd-4803-b84c-77161b974627" name="Changes" comment="" />
+      <created>1719324311750</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719324311750</updated>
+      <workItem from="1719324312784" duration="4306000" />
+      <workItem from="1719383338805" duration="2798000" />
+      <workItem from="1719392152149" duration="1106000" />
+      <workItem from="1719393318158" duration="12031000" />
+      <workItem from="1719415052746" duration="2111000" />
+      <workItem from="1719635482821" duration="1222000" />
+      <workItem from="1719807262491" duration="1701000" />
+      <workItem from="1720630271581" duration="9000" />
+      <workItem from="1720762050008" duration="50000" />
+      <workItem from="1721307983260" duration="5187000" />
+      <workItem from="1721359183716" duration="15000" />
+      <workItem from="1721564697378" duration="28000" />
+      <workItem from="1722087486239" duration="734000" />
+      <workItem from="1722126527826" duration="6000" />
+      <workItem from="1722655163008" duration="1877000" />
+      <workItem from="1722657357469" duration="50000" />
+      <workItem from="1722657411457" duration="460000" />
+      <workItem from="1722657922291" duration="8216000" />
+      <workItem from="1722830501630" duration="617000" />
+      <workItem from="1722915078108" duration="1193000" />
+      <workItem from="1722920134497" duration="3740000" />
+      <workItem from="1722924318078" duration="2869000" />
+      <workItem from="1722936679464" duration="6867000" />
+      <workItem from="1722949224178" duration="3000" />
+      <workItem from="1723074739559" duration="10379000" />
+      <workItem from="1723088204135" duration="4647000" />
+      <workItem from="1723095565155" duration="126000" />
+      <workItem from="1723095704074" duration="4639000" />
+      <workItem from="1723114369028" duration="1842000" />
+    </task>
+    <task id="LOCAL-00001" summary="Section 9">
+      <option name="closed" value="true" />
+      <created>1722924549447</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722924549447</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Section 9">
+      <option name="closed" value="true" />
+      <created>1722943543710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722943543710</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Section 9">
+      <option name="closed" value="true" />
+      <created>1723087347295</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723087347295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Section 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 9" />
+  </component>
+</project>

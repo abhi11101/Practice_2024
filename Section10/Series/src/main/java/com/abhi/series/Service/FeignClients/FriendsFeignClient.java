@@ -1,0 +1,20 @@
+package com.abhi.series.Service.FeignClients;
+
+
+import com.abhi.series.DTO.FriendsDTO;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
+
+@FeignClient(value = "friends",fallback = FriendsFallback.class)
+@Qualifier("friendsClient")
+public interface FriendsFeignClient {
+
+    @GetMapping(value = "/api/friends/findAll",consumes = "application/json")
+    ResponseEntity<List<FriendsDTO>> findAllEpisodes();
+
+
+}
