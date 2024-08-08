@@ -1,0 +1,47 @@
+server:
+  port: 8072
+
+spring:
+  application:
+    name: gatewayserver
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: friends_route
+          uri: lb://FRIENDS
+          predicates:
+            - Path=/seriesProject/friends/**
+          filters:
+            - RewritePath=/seriesProject/friends/(?<segment>.*), /${segment}
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      enabled: true
+
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8070/eureka/
+
+logging:
+  level:
+    com:
+      abhi:
+        gatewayserver: DEBUG

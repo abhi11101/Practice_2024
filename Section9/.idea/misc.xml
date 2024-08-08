@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/office/pom.xml" />
         <option value="$PROJECT_DIR$/got/pom.xml" />
         <option value="$PROJECT_DIR$/Series/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewayserver/pom.xml" />
       </list>
     </option>
   </component>

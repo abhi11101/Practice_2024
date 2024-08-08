@@ -6,6 +6,8 @@ import com.abhi.series.DTO.SeriesDTO;
 import com.abhi.series.Service.SeriesDetailsService;
 import com.abhi.series.Service.SeriesService;
 import jakarta.validation.Valid;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -22,6 +24,7 @@ public class SeriesController {
 
     private SeriesService seriesService;
     private SeriesDetailsService seriesDetailsService;
+    private static final Logger logger = LoggerFactory.getLogger(SeriesController.class);
 
     @Autowired
     public SeriesController(SeriesService seriesService, SeriesDetailsService seriesDetailsService) {
